@@ -1,0 +1,19 @@
+name: install-awscli
+version: 0.0.1
+description: Install awscli with pip.
+keywords:
+  - amazon
+  - aws
+properties:
+  key:
+    type: string
+    required: false
+  secret:
+    type: string
+    required: false
+  region:
+    type: string
+    required: false
+  output:
+    type: string
+    required: false
