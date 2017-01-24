@@ -1,8 +1,8 @@
 #!/bin/bash
 
 install-pip() {
-  tmpdir=$(mktemp -d)
-  tmpfile=${tmpdir}/get-pip.py
+  local tmpdir=$(mktemp -d)
+  local tmpfile=${tmpdir}/get-pip.py
 
   curl --silent \
     --location \
