@@ -1,5 +1,5 @@
 name: install-awscli
-version: 0.0.2
+version: 0.0.3
 description: Install awscli with pip.
 keywords:
   - amazon
