@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eu
+
 install-pip() {
   local tmpdir=$(mktemp -d)
   local tmpfile=${tmpdir}/get-pip.py
